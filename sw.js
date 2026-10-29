@@ -1,4 +1,4 @@
-const VERSION='58c72ff77f599497',FILES=["assets/admin-BJs3qAj9.css","assets/admin-DX6A-hw_.js","assets/challenges-CGAw9PjU.js","assets/game-D45K6yO4.js","assets/game-ZY32eBKh.css","index.html","logo.svg","brand-lockup.svg","route-redirect.js"];
+const VERSION='79e662cebc345453',FILES=["assets/admin-BJs3qAj9.css","assets/admin-Dz-bAG_4.js","assets/challenges-1WWOOVur.js","assets/challenges-C91bpL76.css","assets/game-DLeji_RP.js","assets/game-ZY32eBKh.css","index.html","logo.svg","brand-lockup.svg","route-redirect.js"];
 const ROOT=new URL('./',self.location.href),PREFIX='hardware-offline-'+ROOT.pathname+'-',CACHE=PREFIX+VERSION;
 const paths=new Set(FILES.map(f=>new URL(f,ROOT).href));
 self.addEventListener('install',event=>event.waitUntil((async()=>{
